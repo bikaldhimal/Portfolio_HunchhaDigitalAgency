@@ -3,33 +3,60 @@ import Bikal from "../../assets/bikal.png";
 import Buttons from "./Buttons";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import HeaderSocials from "./HeaderSocials";
+import { BsLinkedin } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
+import { BsFacebook } from "react-icons/bs";
 
 const Header = () => {
   useEffect(() => {
     AOS.init();
-    AOS.refresh();
   }, []);
   return (
-    <div className="flex flex-col text-center mt-10">
+    <div className="text-center mt-10">
       <header className="grid justify-center">
         <h5 className="text-sm">Hello, I'm</h5>
         <h2 className="text-3xl my-2">Bikal Dhimal</h2>
         <h5 className="text-sm">FullStack Developer</h5>
-        <div className="grid place-items-center w-[20rem] h-[25rem] ">
+        <div className="grid place-items-center w-[20rem] my-10 ">
           <Buttons />
         </div>
       </header>
-      <HeaderSocials />
-      <img
-        src={Bikal}
-        alt="The image of Bikal"
-        data-aos="fade-up"
-        className="mt-20 rounded-tr-[48%] rounded-tl-[48%] bg-opacity-80 bg-gradient-to-r from-cyan-500 to-blue-500"
-      />
-      <h5 className="flex flex-col rotate-90 w-60 text-center right-56">
-        Scroll Down
-      </h5>
+      <div className="flex flex-col w-[100%] gap-9 items-center mb-40">
+        {/* Photo Section */}
+        <div>
+          <img
+            src={Bikal}
+            alt="The image of Bikal"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+          />
+        </div>
+
+        {/* Icon Section */}
+        <div className="flex flex-row gap-6 text-cyan-500">
+          <a
+            href="https://www.linkedin.com/in/bikal-dhimal-705957154/"
+            target="_blank"
+            className="hover:text-white ease-in duration-200"
+          >
+            <BsLinkedin />
+          </a>
+          <a
+            href="https://github.com/bikaldhimal"
+            target="_blank"
+            className="hover:text-white ease-in duration-200"
+          >
+            <BsGithub />
+          </a>
+          <a
+            href="https://www.facebook.com/Simaldonge"
+            target="_blank"
+            className="hover:text-white ease-in duraiton-200"
+          >
+            <BsFacebook />
+          </a>
+        </div>
+      </div>
     </div>
   );
 };

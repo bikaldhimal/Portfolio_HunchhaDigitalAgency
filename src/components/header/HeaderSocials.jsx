@@ -5,7 +5,7 @@ import { BsFacebook } from "react-icons/bs";
 
 const HeaderSocials = () => {
   return (
-    <div className="flex flex-col w-[20px] gap-6 mx-10 text-cyan-500">
+    <div className="flex flex-col gap-6 text-cyan-500">
       <a
         href="https://www.linkedin.com/in/bikal-dhimal-705957154/"
         target="_blank"
