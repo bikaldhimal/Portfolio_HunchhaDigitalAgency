@@ -14,6 +14,7 @@ const Buttons = () => {
         </a>
         <a
           href="mailto:bikaldhimal2016@gmail.com"
+          rel="noreferrer"
           target="_blank"
           className="mx-5 px-3 py-[4px] h-10 text-center  bg-sky-600 hover:bg-sky-700 rounded-xl border-solid border-2 border-sky-500 ease-in duration-300"
         >

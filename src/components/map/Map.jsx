@@ -29,6 +29,7 @@ function Map() {
           <Marker position={[26.664001, 87.267671]}>
             <Popup>
               <p className="text-red-600">Huncha Digital Agency</p>
+              <p className="text-cyan-600">Khetikhola, Itahari</p>
               <br />
             </Popup>
           </Marker>
