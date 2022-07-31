@@ -42,7 +42,7 @@ const Header = () => {
             target="_blank"
             className="hover:text-white ease-in duration-200"
           >
-            <BsLinkedin />
+            <BsLinkedin className="animate-bounce" />
           </a>
           <a
             href="https://github.com/bikaldhimal"
@@ -50,7 +50,7 @@ const Header = () => {
             target="_blank"
             className="hover:text-white ease-in duration-200"
           >
-            <BsGithub />
+            <BsGithub className="animate-bounce" />
           </a>
           <a
             href="https://www.facebook.com/Simaldonge"
@@ -58,7 +58,7 @@ const Header = () => {
             target="_blank"
             className="hover:text-white ease-in duraiton-200"
           >
-            <BsFacebook />
+            <BsFacebook className="animate-bounce" />
           </a>
         </div>
       </div>

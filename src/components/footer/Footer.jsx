@@ -3,8 +3,8 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <footer className="w-[100%] bg-gray-800">
-        <p className="mt-4 py-1 text-center text-gray-400 text-sm lg:py-3">
+      <footer className="w-[100%] bg-slate-800">
+        <p className="py-1 text-center text-gray-400 text-sm lg:py-3">
           Copyright &copy; bikaldhimal 2022,{" "}
           <a
             href="https://hunchhadigitalagency.com/"
@@ -28,7 +28,7 @@ const Footer = () => {
               href="http://bikaldhimal.com.np/"
               rel="noreferrer"
               target="_blank"
-              className="text-red-400 text-[0.6rem] hover:text-white animate-pulse"
+              className="text-red-400 text-[0.6rem] hover:text-white animate-pulse hover:underline"
             >
               Bikal Dhimal
             </a>
