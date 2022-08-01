@@ -10,7 +10,7 @@ const Testimonials = () => {
 
   return (
     <figure
-      class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800"
+      class="md:flex bg-slate-800 rounded-xl p-8 md:p-0 dark:bg-slate-800"
       data-aos="fade-right"
       data-aos-offset="300"
       data-aos-easing="ease-in-sine"
@@ -32,7 +32,7 @@ const Testimonials = () => {
         </blockquote>
         <figcaption class="font-medium">
           <div class="text-sky-500 dark:text-sky-400">Aman Gurung</div>
-          <div class="text-slate-700 dark:text-slate-500">
+          <div class="text-slate-500 dark:text-slate-500">
             Software Engineer, Nepal
           </div>
         </figcaption>

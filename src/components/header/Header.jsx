@@ -15,7 +15,7 @@ const Header = () => {
     <div className="text-center mt-10">
       <header className="grid justify-center">
         <h5 className="text-sm">Hello, I'm</h5>
-        <h2 className="text-3xl my-2 animate-pulse text-sky-300 hover:text-white">
+        <h2 className="text-3xl my-2 animate-pulse text-sky-300 hover:text-white ease-in duration-300">
           Bikal Dhimal
         </h2>
         <h5 className="text-sm">FullStack Developer</h5>

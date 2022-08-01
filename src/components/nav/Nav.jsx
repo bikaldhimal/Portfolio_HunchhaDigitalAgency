@@ -10,9 +10,18 @@ const Nav = () => {
         className="h-12 pt-3 px-3 rounded-2xl cursor-pointer"
       />
       <ul className="px-16 py-4 flex space-x-11 text-sm justify-end">
-        <li className="cursor-pointer hover:text-sky-500">Home</li>
-        <li className="cursor-pointer hover:text-sky-500">Chart</li>
-        <li className="cursor-pointer hover:text-sky-500">Map</li>
+        <li className="cursor-pointer hover:text-sky-500 ease-in duration-100">
+          Home
+        </li>
+        <li className="cursor-pointer hover:text-sky-500 ease-in duration-100">
+          Chart
+        </li>
+        <li className="cursor-pointer hover:text-sky-500 ease-in duration-100">
+          Map
+        </li>
+        <li className="cursor-pointer hover:text-sky-500 ease-in duration-100">
+          Testimonials
+        </li>
       </ul>
     </nav>
   );
